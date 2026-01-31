@@ -27,7 +27,7 @@ body{
     position: relative;
     min-width:1303px;
     height: 1843px;
-    background-image: url(obna.png);
+    background-image: url(img/obna.png);
     background-size: contain;
     background-repeat: no-repeat;
 }

@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/*body{
+    background-color: rgb(204, 173, 133);
+    background-image: url(obna.png);
+    background-repeat: no-repeat;  
+    background-position: top;
+    background-size: cover;
+    height: fit-content;
+    max-width: 100vw;
+    
+    
+}*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.ficha{
+
+    position: relative;
+    min-width:1303px;
+    height: 1843px;
+    background-image: url(obna.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#forca.campo {
+    position: absolute;
+    top: 405px;
+    left: 347px;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    background-color: rgba(54, 54, 54, 0.219);
+    border: none;
+    color: darkred;
+    font-size: larger;
+    font-weight: bolder;
+    
+}

@@ -7,19 +7,19 @@
 body{
     display: flex;
     justify-content: center;
+    background-color: #282828;
 }
 .ficha{
     position: relative;
-    min-width:99vw;
-    height: 1843px;
-    background-image: url(img/obna.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    width:100vw;
+    height: 100vh;
+    background-color: #282828;
+    /*background-image: url(img/obna.png);
+    background-size: cover;
+    background-repeat: no-repeat;*/
 }
-#forca.campo {
-    position: absolute;
-    top: 405px;
-    left: 347px;
+.campo{
+    position: fixed;
     width: 60px;
     height: 30px;
     text-align: center;
@@ -28,5 +28,10 @@ body{
     color: darkred;
     font-size: larger;
     font-weight: bolder;
-    
+    right: 40%;
 }
+
+#forca{
+    top: 20%;
+}
+
